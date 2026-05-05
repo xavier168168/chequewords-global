@@ -1,0 +1,10 @@
+{
+  "name": "ChequeWords — Global cheque amount in words",
+  "short_name": "ChequeWords",
+  "description": "Convert cheque amounts to formal words in many languages.",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#2563eb",
+  "lang": "en"
+}
