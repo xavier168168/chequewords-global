@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Global Cheque Amount in Words",
+    "description": "Convert amounts to formal words in 15+ languages and 150+ ISO 4217 currencies. Cheque preview, copy, share, PWA."
+  },
+  "nav": {
+    "brand": "ChequeWords",
+    "converter": "Converter",
+    "about": "Cheque tips"
+  },
+  "converter": {
+    "title": "Amount in words",
+    "subtitle": "Enter digits, pick a currency, copy every language you need.",
+    "amountLabel": "Arabic numerals",
+    "amountPlaceholder": "e.g. 12345.67",
+    "currencyLabel": "Currency (ISO 4217)",
+    "currencySearch": "Search code or country…",
+    "outputLabel": "Output languages",
+    "previewLabel": "Cheque preview layout",
+    "preview": {
+      "northAmerica": "North America",
+      "uk": "United Kingdom",
+      "hongKong": "Hong Kong",
+      "japan": "Japan",
+      "euro": "Euro area"
+    },
+    "errors": {
+      "empty": "Enter an amount.",
+      "invalid": "That is not a valid number.",
+      "tooLarge": "Amount is too large for this tool."
+    },
+    "shortcuts": "Ctrl+Enter copies English. Ctrl+K focuses currency search."
+  },
+  "outLang": {
+    "en": "English",
+    "zh-Hant": "Traditional Chinese (cheque)",
+    "zh-Hans": "Simplified Chinese (cheque)",
+    "ja": "Japanese (大字)",
+    "ko": "Korean (Hangul + Hanja)",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "pt": "Portuguese",
+    "it": "Italian",
+    "ru": "Russian",
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "vi": "Vietnamese",
+    "th": "Thai"
+  },
+  "actions": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "share": "Copy share link",
+    "shareDone": "Link copied",
+    "print": "Print preview"
+  },
+  "about": {
+    "title": "Writing cheques safely",
+    "p1": "Rules differ by bank and country. Always follow your bank’s instructions.",
+    "p2": "English amounts on cheques often end with “Only”. Hong Kong Chinese uses formal uppercase characters (大寫).",
+    "p3": "Never leave large gaps before the amount in figures or words. Use the full currency name your bank expects.",
+    "back": "Back to converter"
+  },
+  "footer": {
+    "disclaimer": "For education only — verify with your bank before issuing a cheque."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Globaler Scheck — Betrag in Worten",
+    "description": "Beträge in 15+ Sprachen und 150+ ISO-4217-Währungen. Vorschau, Kopieren, Teilen, PWA."
+  },
+  "nav": {
+    "brand": "ChequeWords",
+    "converter": "Umrechner",
+    "about": "Tipps"
+  },
+  "converter": {
+    "title": "Betrag in Worten",
+    "subtitle": "Zahl eingeben, Währung wählen, Sprachen kopieren.",
+    "amountLabel": "Arabische Ziffern",
+    "amountPlaceholder": "z. B. 12345,67",
+    "currencyLabel": "Währung (ISO 4217)",
+    "currencySearch": "Code oder Land suchen…",
+    "outputLabel": "Ausgabesprachen",
+    "previewLabel": "Scheck-Layout",
+    "preview": {
+      "northAmerica": "Nordamerika",
+      "uk": "Vereinigtes Königreich",
+      "hongKong": "Hongkong",
+      "japan": "Japan",
+      "euro": "Eurozone"
+    },
+    "errors": {
+      "empty": "Bitte Betrag eingeben.",
+      "invalid": "Ungültige Zahl.",
+      "tooLarge": "Betrag zu groß."
+    },
+    "shortcuts": "Strg+Enter kopiert Englisch. Strg+K fokussiert die Währungssuche."
+  },
+  "outLang": {
+    "en": "Englisch",
+    "zh-Hant": "Traditionelles Chinesisch",
+    "zh-Hans": "Vereinfachtes Chinesisch",
+    "ja": "Japanisch (Daiji)",
+    "ko": "Koreanisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "pt": "Portugiesisch",
+    "it": "Italienisch",
+    "ru": "Russisch",
+    "ar": "Arabisch",
+    "hi": "Hindi",
+    "vi": "Vietnamesisch",
+    "th": "Thai"
+  },
+  "actions": {
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "share": "Link kopieren",
+    "shareDone": "Link kopiert",
+    "print": "Drucken"
+  },
+  "about": {
+    "title": "Scheck sicher ausfüllen",
+    "p1": "Regeln hängen von Bank und Land ab.",
+    "p2": "Auf Englisch oft mit „Only“ abschließen.",
+    "p3": "Keine großen Lücken vor dem Betrag lassen.",
+    "back": "Zurück"
+  },
+  "footer": {
+    "disclaimer": "Nur zu Lernzwecken — bitte Bank prüfen."
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  }
+}

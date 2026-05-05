@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Chèque mondial — montant en toutes lettres",
+    "description": "Convertissez en 15+ langues et 150+ devises ISO 4217. Aperçu, copie, partage, PWA."
+  },
+  "nav": {
+    "brand": "ChequeWords",
+    "converter": "Convertisseur",
+    "about": "Conseils chèque"
+  },
+  "converter": {
+    "title": "Montant en lettres",
+    "subtitle": "Saisissez le montant, choisissez la devise, copiez les langues voulues.",
+    "amountLabel": "Chiffres arabes",
+    "amountPlaceholder": "ex. 12345,67",
+    "currencyLabel": "Devise (ISO 4217)",
+    "currencySearch": "Rechercher code ou pays…",
+    "outputLabel": "Langues de sortie",
+    "previewLabel": "Mise en page du chèque",
+    "preview": {
+      "northAmerica": "Amérique du Nord",
+      "uk": "Royaume-Uni",
+      "hongKong": "Hong Kong",
+      "japan": "Japon",
+      "euro": "Zone euro"
+    },
+    "errors": {
+      "empty": "Entrez un montant.",
+      "invalid": "Nombre invalide.",
+      "tooLarge": "Montant trop élevé."
+    },
+    "shortcuts": "Ctrl+Entrée copie l’anglais. Ctrl+K focus recherche devise."
+  },
+  "outLang": {
+    "en": "Anglais",
+    "zh-Hant": "Chinois traditionnel",
+    "zh-Hans": "Chinois simplifié",
+    "ja": "Japonais (daiji)",
+    "ko": "Coréen",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "pt": "Portugais",
+    "it": "Italien",
+    "ru": "Russe",
+    "ar": "Arabe",
+    "hi": "Hindi",
+    "vi": "Vietnamien",
+    "th": "Thaï"
+  },
+  "actions": {
+    "copy": "Copier",
+    "copied": "Copié",
+    "share": "Copier le lien",
+    "shareDone": "Lien copié",
+    "print": "Imprimer l’aperçu"
+  },
+  "about": {
+    "title": "Remplir un chèque en sécurité",
+    "p1": "Les règles varient selon les banques et les pays.",
+    "p2": "En anglais on termine souvent par « Only ».",
+    "p3": "Évitez les grands espaces avant le montant.",
+    "back": "Retour"
+  },
+  "footer": {
+    "disclaimer": "À titre éducatif — vérifiez auprès de votre banque."
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  }
+}

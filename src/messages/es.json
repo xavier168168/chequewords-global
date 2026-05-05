@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Cheque global — importe en letras",
+    "description": "Convierte importes a más de 15 idiomas y más de 150 divisas ISO 4217. Vista previa, copiar, compartir, PWA."
+  },
+  "nav": {
+    "brand": "ChequeWords",
+    "converter": "Conversor",
+    "about": "Consejos"
+  },
+  "converter": {
+    "title": "Importe en palabras",
+    "subtitle": "Escribe el número, elige la divisa y copia los idiomas que necesites.",
+    "amountLabel": "Cifras arábigas",
+    "amountPlaceholder": "p. ej. 12345,67",
+    "currencyLabel": "Divisa (ISO 4217)",
+    "currencySearch": "Buscar código o país…",
+    "outputLabel": "Idiomas de salida",
+    "previewLabel": "Diseño del cheque",
+    "preview": {
+      "northAmerica": "Norteamérica",
+      "uk": "Reino Unido",
+      "hongKong": "Hong Kong",
+      "japan": "Japón",
+      "euro": "Zona euro"
+    },
+    "errors": {
+      "empty": "Introduce un importe.",
+      "invalid": "No es un número válido.",
+      "tooLarge": "Importe demasiado grande."
+    },
+    "shortcuts": "Ctrl+Enter copia inglés. Ctrl+K enfoca la búsqueda de divisa."
+  },
+  "outLang": {
+    "en": "Inglés",
+    "zh-Hant": "Chino tradicional (cheque)",
+    "zh-Hans": "Chino simplificado (cheque)",
+    "ja": "Japonés (daiji)",
+    "ko": "Coreano",
+    "es": "Español",
+    "fr": "Francés",
+    "de": "Alemán",
+    "pt": "Portugués",
+    "it": "Italiano",
+    "ru": "Ruso",
+    "ar": "Árabe",
+    "hi": "Hindi",
+    "vi": "Vietnamita",
+    "th": "Tailandés"
+  },
+  "actions": {
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "share": "Copiar enlace",
+    "shareDone": "Enlace copiado",
+    "print": "Imprimir vista"
+  },
+  "about": {
+    "title": "Rellenar cheques con seguridad",
+    "p1": "Las normas dependen del banco y del país.",
+    "p2": "En inglés suele terminarse con “Only”.",
+    "p3": "No dejes espacios antes del importe en cifras o en letras.",
+    "back": "Volver al conversor"
+  },
+  "footer": {
+    "disclaimer": "Solo con fines educativos — confirma con tu banco."
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  }
+}

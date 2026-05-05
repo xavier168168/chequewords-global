@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "全球支票金额大写",
+    "description": "将阿拉伯数字转为 15+ 种语言正式写法，支持 150+ 种 ISO 4217 货币。支票预览、复制、分享、PWA。"
+  },
+  "nav": {
+    "brand": "ChequeWords",
+    "converter": "转换",
+    "about": "支票提示"
+  },
+  "converter": {
+    "title": "支票大写金额",
+    "subtitle": "输入数字、选择货币，复制所需语言版本。",
+    "amountLabel": "阿拉伯数字",
+    "amountPlaceholder": "例：12345.67",
+    "currencyLabel": "货币 (ISO 4217)",
+    "currencySearch": "搜索代码或国家…",
+    "outputLabel": "输出语言",
+    "previewLabel": "支票预览版式",
+    "preview": {
+      "northAmerica": "北美",
+      "uk": "英国",
+      "hongKong": "香港",
+      "japan": "日本",
+      "euro": "欧元区"
+    },
+    "errors": {
+      "empty": "请输入金额。",
+      "invalid": "不是有效数字。",
+      "tooLarge": "金额超出本工具上限。"
+    },
+    "shortcuts": "Ctrl+Enter 复制英文。Ctrl+K 聚焦货币搜索。"
+  },
+  "outLang": {
+    "en": "英语",
+    "zh-Hant": "繁体中文（支票大写）",
+    "zh-Hans": "简体中文（支票大写）",
+    "ja": "日语（大字）",
+    "ko": "韩语（谚文+汉字）",
+    "es": "西班牙语",
+    "fr": "法语",
+    "de": "德语",
+    "pt": "葡萄牙语",
+    "it": "意大利语",
+    "ru": "俄语",
+    "ar": "阿拉伯语",
+    "hi": "印地语",
+    "vi": "越南语",
+    "th": "泰语"
+  },
+  "actions": {
+    "copy": "复制",
+    "copied": "已复制",
+    "share": "复制分享链接",
+    "shareDone": "链接已复制",
+    "print": "打印预览"
+  },
+  "about": {
+    "title": "安全填写支票",
+    "p1": "各地银行规则不同，请以开户行要求为准。",
+    "p2": "英文支票金额通常以 “Only” 结尾；中文支票使用大写防涂改。",
+    "p3": "数字与大写金额前不要留空；货币名称按银行要求填写。",
+    "back": "返回转换"
+  },
+  "footer": {
+    "disclaimer": "仅供教育参考——签发前请向银行核实。"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  }
+}
