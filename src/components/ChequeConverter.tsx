@@ -308,37 +308,6 @@ export function ChequeConverter() {
         </CardContent>
       </Card>
 
-      <Card className="no-print">
-        <CardHeader>
-          <CardTitle>Bank / Market Template</CardTitle>
-        </CardHeader>
-        <CardContent className="grid gap-3 md:grid-cols-2">
-          {MARKET_TEMPLATES.map((tpl) => (
-            <button
-              key={tpl.id}
-              type="button"
-              className={cn(
-                "rounded-xl border p-4 text-left transition hover:bg-muted",
-                templateId === tpl.id
-                  ? "border-accent bg-accent/5"
-                  : "border-border",
-              )}
-              onClick={() => {
-                setTemplateId(tpl.id);
-                setPreviewVariant(tpl.previewVariant);
-                if (getCurrency(tpl.currencyCode)) setCurrencyCode(tpl.currencyCode);
-              }}
-            >
-              <p className="font-semibold">{tpl.name}</p>
-              <p className="text-xs text-muted-foreground">{tpl.bankHint}</p>
-              <p className="mt-1 text-xs font-mono text-muted-foreground">
-                {tpl.currencyCode} · {tpl.previewVariant}
-              </p>
-            </button>
-          ))}
-        </CardContent>
-      </Card>
-
       <section className="no-print space-y-3">
         <h2 className="text-lg font-semibold">{t("outputLabel")}</h2>
         <div className="flex flex-wrap gap-2">
@@ -423,6 +392,37 @@ export function ChequeConverter() {
           />
         </div>
       </section>
+
+      <Card className="no-print">
+        <CardHeader>
+          <CardTitle>Bank / Market Template</CardTitle>
+        </CardHeader>
+        <CardContent className="grid gap-3 md:grid-cols-2">
+          {MARKET_TEMPLATES.map((tpl) => (
+            <button
+              key={tpl.id}
+              type="button"
+              className={cn(
+                "rounded-xl border p-4 text-left transition hover:bg-muted",
+                templateId === tpl.id
+                  ? "border-accent bg-accent/5"
+                  : "border-border",
+              )}
+              onClick={() => {
+                setTemplateId(tpl.id);
+                setPreviewVariant(tpl.previewVariant);
+                if (getCurrency(tpl.currencyCode)) setCurrencyCode(tpl.currencyCode);
+              }}
+            >
+              <p className="font-semibold">{tpl.name}</p>
+              <p className="text-xs text-muted-foreground">{tpl.bankHint}</p>
+              <p className="mt-1 text-xs font-mono text-muted-foreground">
+                {tpl.currencyCode} · {tpl.previewVariant}
+              </p>
+            </button>
+          ))}
+        </CardContent>
+      </Card>
 
       <section className="grid gap-4 md:grid-cols-2">
         {results.map((r) => (
